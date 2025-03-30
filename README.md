@@ -22,16 +22,18 @@ Função para extrair os dados dos meios de pagamentos trimestrais do Banco Cent
   DataFrame - Estrutura de dados do Pandas.
 
 #### **salvarCsv**
-"""Função para transformar o DataFrame, que foi gerado anteriormente, em um arquivo csv.
+Função para transformar o DataFrame, que foi gerado anteriormente, em um arquivo csv.
   
   Parâmetros: 
   Df - DataFrame
   nome_arquivo - String - Nome que o arquivo irá receber(também é possível especificar o diretório em que o mesmo será gerado)
+  
   Separador - String
+  
   Decimal - String - Formatação dos decimais (Ex: , ou .)
 
   Saída:
-  Arquivo CSV."""
+  Arquivo CSV.
 ### **Estrutura dos Dados**
 
 #### **Valores Financeiros**
@@ -71,7 +73,7 @@ Função para extrair os dados dos meios de pagamentos trimestrais do Banco Cent
 | `quantidadeDebitoDireto`      | Decimal  | Quantidade Débito Direto              | Quantidade (em milhares) de transações de débitos diretos trimestrais. |
 | `quantidadeSaques`            | Decimal  | Quantidade Saques                     | Quantidade (em milhares) de saques realizados trimestralmente. |
 
----
 
-Caso tenha alguma sugestão ou melhoria, fique à vontade para contribuir! 🚀
+
+
 
