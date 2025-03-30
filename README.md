@@ -10,6 +10,28 @@ A partir desse conjunto de dados, foi trabalhado o seguinte subrecurso:
 
 O conjunto de dados contém informações trimestrais sobre diferentes meios de pagamento no Brasil, incluindo transações realizadas via Pix, TED, DOC, boletos, cartões de crédito e débito, entre outros.
 
+### **Funções utilizadas**
+
+#### **requestApiBcb**
+Função para extrair os dados dos meios de pagamentos trimestrais do Banco Central.
+  
+  Parâmetros: 
+  Data - String - aaaat (Exemplo: 20191)
+
+  Saída:
+  DataFrame - Estrutura de dados do Pandas.
+
+#### **salvarCsv**
+"""Função para transformar o DataFrame, que foi gerado anteriormente, em um arquivo csv.
+  
+  Parâmetros: 
+  Df - DataFrame
+  nome_arquivo - String - Nome que o arquivo irá receber(também é possível especificar o diretório em que o mesmo será gerado)
+  Separador - String
+  Decimal - String - Formatação dos decimais (Ex: , ou .)
+
+  Saída:
+  Arquivo CSV."""
 ### **Estrutura dos Dados**
 
 #### **Valores Financeiros**
