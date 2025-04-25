@@ -34,6 +34,32 @@ Função para transformar o DataFrame, que foi gerado anteriormente, em um arqui
 
   Saída:
   Arquivo CSV.
+
+#### **salvarSQLite**
+Função para salvar os dados extraídos e transformados em um banco sqlite.
+  
+  Parâmetros: 
+  Df - DataFrame
+  nome_banco - String - Nome que o abcno irá receber
+  nome_tabela - String - Nome da tabela do banco
+  
+  Saída:
+  Banco de dados SQLITE salvo.
+
+#### **salvarMySQL**
+Função para salvar os dados extraídos e transformados em um banco no MySQL Workbench.
+  
+  Parâmetros: 
+  Df - DataFrame
+  nome_banco - String - Nome que o abcno irá receber
+  senha - String - 
+  usuario - String -
+  host - String - 
+  nome_tabela - String - Nome da tabela do banco
+  
+  Saída:
+  Banco de dados SQLITE salvo.
+  
 ### **Estrutura dos Dados**
 
 #### **Valores Financeiros**
