@@ -10,6 +10,11 @@ A partir desse conjunto de dados, foi trabalhado o seguinte subrecurso:
 
 O conjunto de dados contém informações trimestrais sobre diferentes meios de pagamento no Brasil, incluindo transações realizadas via Pix, TED, DOC, boletos, cartões de crédito e débito, entre outros.
 
+### **Arquivos utilizados**
+
+* MachineLearning.ipynb: Arquivo feito para realizar treinamento de modelos, a partir da base de dados tratada, e a predição de variáveis com visualizações gráficas.
+* Relatorio.ipynb: Arquivo onde foi feita uma análise sobre dados de pagamentos trimestrais, começando por uma análise exploratória e depois uma análise estatística, por meio de ferramentas matemáticas.
+
 ### **Funções utilizadas**
 
 #### **requestApiBcb**
