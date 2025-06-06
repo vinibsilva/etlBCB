@@ -1,10 +1,8 @@
 requests
 pandas
-pymysql
-sqlalchemy
 matplotlib
 black
 seaborn
-scikit-learn7
+scikit-learn
 prophet
 plotly
